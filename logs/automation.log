@@ -710,3 +710,9 @@ Method public void testcase.TC02_Login_Datadriven.test(java.lang.String,java.lan
 11:59:49.386 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
   C:\Eclipse\Ec2\TestNg_Framework\testng.xml
 
+16:46:41.162 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Eclipse\Ec2\TestNg_Framework\testng.xml"
+16:47:36.819 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Eclipse\Ec2\TestNg_Framework\testng.xml"
+16:47:37.046 [main] INFO  org.testng.log4testng.Logger.info(Logger.java:112)oggger - [TestNG] Running:
+  C:\Eclipse\Ec2\TestNg_Framework\testng.xml
+
+16:50:52.045 [main] DEBUG org.testng.log4testng.Logger.debug(Logger.java:82)oggger - suiteXmlPath: "C:\Eclipse\Ec2\TestNg_Framework\testng.xml"
