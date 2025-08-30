@@ -1,0 +1,107 @@
+
+
+
+ create maven project and do simple test case
+ 
+ 1. create required packages and folders
+ 2. Add drivers to the folder
+ 3. create a class in pageobject and add all the drivers of login page 
+ 4. create base class and add all commonly used things in before class and after class annotation
+ 5. created a class in testcase for test case and add one test annotation 
+   extend base class, create object of login page and call the methods of loginobj
+   pas values that define in base class
+ 6. run login tc
+ 
+ 
+ add log4j
+ 
+     Log4j is a popular Java-based logging utility that provides a simple, flexible way to log messages at 
+     different levels (e.g., DEBUG, INFO, WARN, ERROR) in your applications. 
+     It helps you keep track of application behavior, debug issues, and gather valuable runtime information.
+ 7.  for adding log4j we need log4j jars and log4j property file
+ 8.  configure the  logger and add the log4j file in base class 
+ 9.  add log statements in tc file
+ 10. run and check the log file generted in file
+ 
+ 
+ read common values from property file
+ 
+     Property file is a text file which contain all the variables required for project. Name will be config.properties
+     to read the property file we need one utility file name readconfig.java
+     utility file will read all the variables from property file and give to base class
+     
+ 11. create config.property file inside configuration folder
+      
+      ./an be user do get the project home directory in propertyfile and java class
+       system.getproperty("user.die") can use only in java class
+      
+ 12. Add variables to property file
+ 13. create readconfig utility file in utility folder
+ 14. create a constructor and load the file in utility file
+ 15. create method in readconfig utilty file for each variables in properties file    
+ 16. create object of readconfig utility file in base class
+ 17. call all the methods in utility file in base class
+ 
+ 
+ run test case on desired browser
+ 
+ 18. define @parameters in base class
+ 19. if condition to execute different browser
+ 20. create xml file for passing driver value 
+     
+     
+  add extend report
+  
+ 21.add dependecy in pom.xml   
+ 22.create utililty file name as extend report file and import ITestListner class
+ 22.Define the methods in utility file
+ 23.Add screenshot method in else statement in baseclass file
+ 24.call the screenshot menthod from tc file
+ 25.add listner and class details in xml and run 
+ 
+ 
+  data driven test case
+  
+  apachi poi jars
+  xls file (test data)
+  xlutils.java
+  
+26. add the methods in utility file to read excel 
+27. create new test case for login 
+28. create two method for test and dataproviver
+    need to import all the date from excel into tpwo dimensional array
+29. add the excel into test data package
+30. define the methods in test case file
+31. add method to check alert is available
+32. write log out method in loginob page
+33, write if else stament to handle alert
+34. add the test case name in xml file and run
+     
+     
+      frameword done
+     
+   ----------------------------------------------------------------------------  
+     
+     
+     add new testcases
+     
+  1. create pageobject file and add all the ohjects and methods to call ojects 
+  2. create testcase file and padd all the values
+  
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
