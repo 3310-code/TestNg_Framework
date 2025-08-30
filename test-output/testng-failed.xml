@@ -5,6 +5,7 @@
     <listener class-name="utility.extendreport"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
       <class name="testcase.TC01_Login">
         <methods>
